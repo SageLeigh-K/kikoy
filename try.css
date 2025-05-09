@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* prevents scrollbars if the video slightly overflows */
+  }
+
+video {
+    position: fixed;     /* or absolute */
+  top: 0;
+  left: 0;
+  width: 100vw;        /* full viewport width */
+  height: 100vh;       /* full viewport height */
+  object-fit: cover;   /* scale & crop to fill */
+  z-index: -1; 
+}

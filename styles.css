@@ -1,0 +1,52 @@
+body {
+    align-items: center;
+    background: #ff9b9b;
+}
+
+body h1{
+    font-size: 5em;
+    color: #fbfbfb;
+    font-family: "Caveat", cursive;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    margin-top: .1em;
+    margin-bottom: .1em;
+}
+
+body img {
+    display: block;
+  margin: 0 auto;
+}
+
+body a{
+    text-decoration: none;
+}
+
+body div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: rgb(105, 210, 175);
+    width: 8em;
+    height: 3em;
+    border-radius: 1em;
+    margin: auto auto;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  body div p {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Caveat", cursive, bold; 
+    font-size: 2em;
+  }
+
+body div:hover{
+    width: 8.5em;
+    height: 3.5em;
+    background-color: rgb(83, 173, 143);
+    cursor: pointer;
+}
